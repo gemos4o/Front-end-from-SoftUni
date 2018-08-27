@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="signup" class="container">
+    <a href="index.html">Return to Index</a>
+    <div class="row">
+        <article class="col-xl-5 col-lg-5 col-md-5 col-sm-12 text-white" id="leftArt">
+            <h1 class="pb-3">Sign-up Form</h1>
+            <p class="pb-3">Aenean tincidunt mollis litora taciti, condimentum parturient potenti per penatibus? Curabitur purus
+                vulputate nostra ante massa.</p>
+            <p>Cras integer pharetra congue semper conubia mattis tempus ad. Ante penatibus dictumst sem duis diam
+                euismod. Augue semper vulputate senectus amet in hac tempor enim.</p>
+        </article>
+
+         <article class="col-xl-5 col-lg-5 col-md-5 col-sm-12 d-flex-column text-white" id="rightArt">
+             <div class="mb-5 mt-5">
+                 <div class="text-danger text-center" id="divSignUp">Fields with stars are mandatory!</div>
+                 <input placeholder="Username &star;;" id="username" name="username" type="text">
+             </div>
+             <div class="mb-5">
+                 <input placeholder="Password &star;" id="password" name="password" type="password">
+             </div>
+             <div class="mb-4">
+                 <input placeholder="Confirm Password &star;" id="passwordRet" name="passwordRet" type="password" class="text-white mb-4">
+                 <div class="text-danger" id="confirmedPassword">Password and Confirm Password don't match</div>
+             </div>
+             <div class="mb-4">
+                 <input placeholder="Email &star;" id="email" name="email" type="email" class="mt-0" maxlength="50" size="45"><span
+                     id="emailspanSign" value="0"></span>
+             </div>
+             <div class="mb-4 text-white">
+                 <input placeholder="Phone" id="phone" name="phone" type="number" class="text-white">
+             </div>
+
+             <div class="mt-4">
+                 <button type="submit" id="submitBtnSign" class="btn-large btn-large-white px-4 text-dark">
+                     SUBMIT
+                 </button>
+             </div>
+         </article>
+    </div>
+
+    <footer id="signupFoot">
+        <div class="col-xl-12 text-center font-weight-light">
+            <p class="d-inline-block bg-black text-white px-5">
+                Copyright &copy; 2018 Company Name
+            </p>
+        </div>
+    </footer>
+
+</section>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.bundle.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

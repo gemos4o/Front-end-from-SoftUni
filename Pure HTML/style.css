@@ -1,0 +1,147 @@
+body{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+}
+.navbar ul li{
+    list-style: none;
+    border: 1px solid white;
+    margin: 0 1rem;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+#navbar {
+    width: 90%;
+}
+#header {
+    background-image: url("img/bg-1.jpg");
+    background-size: cover;
+    height: 35rem;
+    margin: auto;
+}
+#header h1 {
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 4rem;
+}
+#header h4 {
+    text-align: center;
+}
+.first img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 0.8rem;
+}
+.first article {
+    width: 40%;
+    background-color: #F2F2F2;
+    height: 28rem;
+}
+.first button {
+    margin-left: 7rem;
+}
+.second article {
+    background-color: #F2F2F2;
+    height: 35rem;
+}
+.second img {
+    padding-top: 0.7rem;
+    width: 100%;
+}
+.second h5 {
+    text-align: center;
+}
+.second button {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid grey;
+}
+.third {
+    background-image: url("img/bg-2.jpg");
+    background-size: cover;
+    height: 25rem;
+    margin: auto;
+    width: 85%;
+}
+.third h1 {
+    text-align: center;
+    padding-top: 10rem;
+}
+#pop {
+    text-align: center;
+    width: 80%;
+    padding-left: 14rem;
+    font-size: 1.2rem;
+}
+.fourt article {
+    background-color: #F2F2F2;
+    height: 33rem;
+}
+.fourt img {
+    width: 100%;
+    padding-top: 0.7rem;
+}
+.fourt h5 {
+    text-align: center;
+}
+.fourt button {
+    margin-left: 5rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    outline: none;
+}
+.fourt button:hover {
+    background-color: #E6E6E6;
+    outline: none;
+}
+.fifth article {
+    background-color: #F2F2F2;
+    width: 86.5%;
+    height: 52rem;
+    margin-left: 2.6rem;
+}
+.fifth img {
+    width: 100%;
+}
+.fifth h3, .fifth p {
+    width: 95%;
+    text-align: left;
+    padding-left: 3rem;
+
+}
+.fifth button {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    outline: none;
+}
+.contact {
+    background-image: url("img/bg-3.jpg");
+    background-size: cover;
+    margin: auto;
+    height: 37rem;
+    width: 85%;
+}
+.contact h1 {
+    text-align: center;
+}
+.contact button {
+    color: white;
+    margin-left: 36rem;
+}
+footer h1 {
+    text-align: center;
+    font-weight:lighter;
+}
+footer p {
+    width: 44%;
+    margin: auto;
+    text-align: center;
+}
+#contacts {
+    display: none;
+}

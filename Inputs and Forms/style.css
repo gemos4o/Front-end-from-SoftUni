@@ -1,0 +1,264 @@
+/*INDEX*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#home {
+    background-image: url("img/input-bg-05.jpg");
+    background-size: cover;
+    height: 80rem;
+}
+#home h1 {
+    margin: 3rem 0 3rem 12rem;
+    font-size: 3.5rem;
+}
+#menu {
+    margin-left: 5rem;
+}
+home hr {
+    float: left;
+    margin: 2rem;
+}
+#lineHor {
+    margin-top: 4rem;
+}
+#menuForm {
+    height: 21rem;
+}
+#home a {
+    color: white;
+    line-height: 3rem;
+}
+#indexFoot {
+    margin-top: 40rem;
+}
+
+
+/*REGISTER SECTION*/
+#register {
+    background-image: url("img/input-bg-02.jpg");
+    background-size: cover;
+    height: 80rem;
+    padding-top: 8rem;
+}
+#divReg {
+    margin-right: 8em;
+    display: none;
+}
+#register h3 {
+    font-size: 3rem;
+}
+#register p {
+    color: #9E9E9E;
+}
+#registerInputs {
+    margin-left: 6rem;
+}
+#radio {
+    margin-left: 4rem;
+}
+#first_name, #last_name, #emko, #mobile, #address, #district, #zipcode {
+    width: 70%;
+    background-color: #4A4A4B;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 2.5rem;
+}
+#selected {
+    margin-left: 3rem;
+    display: inline;
+}
+#zipcode {
+    margin-left: 6rem;
+    display: inline;
+    margin-top: 2rem;
+
+}
+#submitBtn {
+    margin-right: 14rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+}
+#registerFoot {
+    margin-top: 15rem;
+}
+
+
+
+/*SIGN-UP SECTION*/
+#signup {
+    background-image: url("img/input-bg-01.jpg");
+    background-size: cover;
+    height: 75rem;
+}
+#signup #leftArt {
+    padding-top: 15rem;
+    padding-left: 10rem;
+}
+#divSignUp, #confirmedPassword {
+    display: none;
+}
+#rightArt {
+    padding-left: 10rem;
+    padding-top: 13rem;
+}
+#rightArt input {
+    width: 20rem;
+    background-color: #151711;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 2.5rem;
+    color: white;
+}
+#signup #submitBtnSign {
+    margin-left: 13rem;
+}
+#signupFoot {
+    margin-top: 26rem;
+
+
+
+}
+/*LOGIN SECTION*/
+#login {
+    background-image: url("img/input-bg-04.jpg");
+    background-size: cover;
+    height: 67rem;
+}
+#returnLog {
+    border: 1px solid white;
+    padding-top: 3rem;
+
+}
+#login article {
+    margin-top: 30rem;
+    background-color: #111718;
+}
+#usernameLog, #passwordLog {
+    width: 80%;
+    background-color: #080705;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 2.5rem;
+}
+#login a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+#login #logBtn {
+    margin-left: 5rem;
+    padding: 0.5rem 1rem;
+}
+#login #createBtn {
+    margin-left: 26rem;
+}
+#divLogin {
+    display: none;
+}
+#loginFoot {
+    margin-top: 8rem;
+
+
+
+}
+/*SURVEY SECTION*/
+#survey {
+    background-image: url("img/input-bg-06.jpg");
+    background-size: cover;
+    height: 96rem;
+}
+#survey article {
+    background-color: #434342;
+    margin-bottom: 10rem;
+    height: 16rem;
+}
+#survey #thirdSurvey {
+    height: 26rem;
+}
+.pausa {
+    margin: 3rem 0;
+}
+#survey ul li {
+    list-style: none;
+}
+#survey textarea {
+    background-color: #434342;
+    color: white;
+}
+#occupation, #income, #age, #nameServ, #emailServ {
+    width: 17rem;
+    background-color: #4A4A4B;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#income, #emailServ {
+    margin: 2rem 0;
+}
+#message {
+    width: 134%;
+}
+#divServey {
+    display: none;
+}
+
+
+
+/*APPLICATION SECTION*/
+#application {
+    background-image: url("img/input-bg-03.jpg");
+    background-size: cover;
+    height: 91rem;
+}
+#application article {
+    background-color: #E9CAC8;
+}
+.appl {
+    padding-left: 4rem;
+    width: 40em;
+}
+#divCity {
+    padding-left: 6rem;
+    margin-left: 2rem;
+}
+#city {
+    padding-left: 4rem;
+    height: 2.5rem;
+}
+#application #zipcode, #application #city {
+    width: 13rem;
+}
+#zipcode {
+    padding-left: 7rem;
+}
+#application .radio {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.appl-2 {
+    width: 15rem;
+    padding-left: 5rem;
+    height: 2.5rem;
+}
+#message {
+    width: 36rem;
+    margin-left: 2rem;
+}
+.labelMessage {
+    margin-left: 2rem;
+}
+#application #appSubmitBtn {
+    padding: 1rem 4rem;
+    background-color: white;
+}
+#divLoginUser, #divLoginPass, #divApp {
+    display: none;
+}
+
+
+
