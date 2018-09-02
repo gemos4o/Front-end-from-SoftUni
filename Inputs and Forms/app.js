@@ -122,7 +122,7 @@ $('#submitSurveyBtn').click(function(){
         $('#maleSurvey').prop('checked', false);
         $('#femaleSurvey').prop('checked', false);
         $('#message').val('');
-        $('#submitSurveyBtn').css('background-color', 'green').html('<h3>Success!</h3>');
+        $('#submitSurveyBtn').removeClass("bg-dark").css({'background-color' : 'green', 'border' : 'none'}).html('Success!');
     }
     else{
         $('#divServey').css('display', 'block');

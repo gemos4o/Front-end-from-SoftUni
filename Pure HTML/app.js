@@ -15,14 +15,14 @@ $("#email").blur(function () {
 });
 
 $('#send').click(function () {
-    if($('#name').val() != '' && $('#email') != '' && $('#emailDiv').text() == '' && $('#subject').val() != ''){
+    if($('#name').val() != '' && $('#email').val() != '' && $('#emailDiv').text() == '' && $('#subject').val() != ''){
 
         $('#name').val('');
         $('#email').val('');
         $('#subject').val('');
         $('#comment').val('');
         $('#contacts').css('display', 'none');
-        $('#send').css('background-color', 'green').html('<h3>Success</h3>');
+        $('#send').removeClass("bg-dark border").css('background-color', 'green').html('Success');
         $('#send').css('outline', 'none');
     }
     else {
